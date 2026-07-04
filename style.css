@@ -1227,3 +1227,12 @@ opacity:1;
   text-decoration: none;
   z-index: 999;
 }
+
+/* SPA single-page book layout */
+.book-page {
+  display: none !important;
+}
+.book-page.active {
+  display: block !important;
+  animation: fadeInUp 0.6s ease both;
+}
